@@ -5,12 +5,12 @@ This is one learning project of several, most of the code is likely ignorantly c
 ## Game Rules
 The game runs on a tick system where every tick represents one year. Every tick bunnies die, have babies, become radioactive mutant vampires, or do nothing.
 - The gameboard consists of a 100x100 grid.  Every tick bunnies move one square.
--- Movement is random for now but adding water/food requirements or other motivators would make the game much more Life-like
+  - Movement is random for now but adding water/food requirements or other motivators would make the game much more Life-like
 - At game start 5 bunnies are created with random distribution of genders and colors.
 - Each tick ages bunnies one year.
 - Bunnies hit adulthood at age 2 and die at age 10.
 - If there is an adult male and female bunny within a square of each other, the female will attempt to fill 7 adjacent squares with kits. (e.g. M_F or closer results in bunnies)
--- Newborn bunnies have the same coat color as the mother
+  - Newborn bunnies have the same coat color as the mother
 - Some bunnies are born as radioactive mutant vampire bunnies (RMVBs). Current rate is 2%.
 - RMVBs die at age 50 and cannot reproduce.
 - If RMVB is directly adjacent to a normal bunny at any point it will convert that bunny to a RMVB.
